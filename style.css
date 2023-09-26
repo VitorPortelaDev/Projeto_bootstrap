@@ -5,7 +5,25 @@
     justify-content: center;
     padding: 10px;
 }
+#contato{
+    display:flex ;
+}
 
 #produtos div{
     margin: 10px;
+}
+
+#contato form{
+  width: 500px;
+  color: cadetblue;
+}
+.form-text{
+    color:cadetblue;
+}
+
+nav{
+    z-index: 100;
+    background:linear-gradient(45deg,purple,violet);
+    position:fixed;
+    top:0;
 }
