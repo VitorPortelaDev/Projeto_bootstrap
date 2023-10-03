@@ -27,3 +27,20 @@ nav{
     position:fixed;
     top:0;
 }
+
+#planos{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+
+}
+#planos div{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
